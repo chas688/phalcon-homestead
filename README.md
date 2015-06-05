@@ -1,9 +1,11 @@
-# phalcon-homestead
-Homestead for Phalcon PHP framework with Vagrant
+# Phalcon-homestead
+Homestead for Phalcon PHP framework with Nginx + Php5-fpm + Phalcon + Redis installed
 
-Nginx + Php5-fpm + Phalcon + Redis
-1. bash init.sh
 
-2. A folder will created and named ./phalcon
+Steps:
 
-3. Edit ./phalcon/Homestead.yml file to fit your needs.
+1. Run bash init.sh to create ./phalcon folder
+
+2. Edit ./phalcon/Homestead.yml file to fit your needs
+
+3. Run vagrant up and enjoy your coffee
