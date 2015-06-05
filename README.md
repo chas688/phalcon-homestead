@@ -4,8 +4,14 @@ Homestead for Phalcon PHP framework with Nginx + Php5-fpm + Phalcon + Redis inst
 
 # Installation:
 
-1. Run bash init.sh to create ./phalcon folder
+1. Create ./phalcon folder
+```
+bash init.sh
+```
 
 2. Edit ./phalcon/Homestead.yml file to fit your needs
 
-3. Run vagrant up and enjoy your coffee
+3. Start virtualbox  and enjoy your coffee
+```
+vagrant up
+```
