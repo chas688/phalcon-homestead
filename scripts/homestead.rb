@@ -1,7 +1,7 @@
 class Homestead
   def Homestead.configure(config, settings)
     # Configure The Box
-    config.vm.box = "debian/jessie64"
+    config.vm.box = "vinsonyung/debian-jessie-phalcon"
     config.vm.hostname = "Phalcon"
 
     # Configure A Private Network IP
@@ -18,10 +18,10 @@ class Homestead
     end
 
     # Configure Port Forwarding To The Box
-    config.vm.network "forwarded_port", guest: 80, host: 8888
+    config.vm.network "forwarded_port", guest: 80, host: 8080
     config.vm.network "forwarded_port", guest: 443, host: 4438
     config.vm.network "forwarded_port", guest: 3306, host: 33068
-    config.vm.network "forwarded_port", guest: 5432, host: 54328
+    config.vm.network "forwarded_port", guest: 6379, host: 63798
 
     # Add Custom Ports From Configuration
     if settings.has_key?("ports")
