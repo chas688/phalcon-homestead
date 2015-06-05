@@ -1,5 +1,5 @@
 # phalcon-homestead
-Homestead for Phalcon PHP framework with vagrant
+Homestead for Phalcon PHP framework with Vagrant
 
 1. bash init.sh
 
