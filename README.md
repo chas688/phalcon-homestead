@@ -2,7 +2,7 @@
 Homestead for Phalcon PHP framework with Nginx + Php5-fpm + Phalcon + Redis installed
 
 
-Steps:
+# Installation:
 
 1. Run bash init.sh to create ./phalcon folder
 
