@@ -12,14 +12,16 @@ Git: https://git-scm.com/downloads
 
 # Installation:
 
-1. Open Git Bash, create ./phalcon folder
+1. Open Git Bash, go to homestead directory
+
+2. create ./phalcon folder
 ```
 bash init.sh
 ```
 
-2. Edit ./phalcon/Homestead.yml file to fit your needs
+3. Edit ./phalcon/Homestead.yml file to fit your needs
 
-3. Start virtualbox  and enjoy your coffee
+4. Start virtualbox  and enjoy your coffee
 ```
 vagrant up
 ```
