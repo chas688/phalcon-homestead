@@ -25,3 +25,11 @@ Step 4. Start virtualbox  and enjoy!
 ```
 vagrant up
 ```
+
+# SSH Login
+Username & password: vagrant
+
+# Create New Project
+Step 1: Go to ~/Code/
+```
+phalcon project <project name>
