@@ -10,7 +10,7 @@ VirtualBox: https://www.virtualbox.org/wiki/Downloads
 
 Git: https://git-scm.com/downloads
 
-# Installation:
+# Installation
 
 Step 1: Open Git Bash, go to homestead directory
 
