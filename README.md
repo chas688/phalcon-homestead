@@ -1,6 +1,8 @@
 # Phalcon homestead
 Homestead for [Phalcon PHP framework](https://phalconphp.com/en/) with Nginx + Php5-fpm + MySQL + Redis installed
 
+Forked from: https://github.com/laravel/homestead
+
 # Before You Begin
 You need to install _Vagrant_ , _VirtualBox_ & _Git_ before running the homestead
 
