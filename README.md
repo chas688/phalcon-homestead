@@ -13,11 +13,14 @@ Git: https://git-scm.com/downloads
 # Installation:
 
 Step 1: Open Git Bash, go to homestead directory
+
 Step 2. Create ./phalcon folder
 ```
 bash init.sh
 ```
+
 Step 3. Edit ./phalcon/Homestead.yml file to fit your needs
+
 Step 4. Start virtualbox  and enjoy!
 ```
 vagrant up
